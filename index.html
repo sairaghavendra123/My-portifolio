@@ -3,107 +3,362 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Mahesh Bandela - Portfolio showcasing AI, Web Development, and Full-Stack projects.">
-    <meta name="keywords" content="Mahesh Bandela, Web Developer, AI, Portfolio, C++, JavaScript">
-    <title>Mahesh Bandela - Portfolio</title>
+    <meta name="description" content="Chanudu sesha sai raghavendra - Portfolio showcasing Cybersecurity, AI, and Full-Stack projects.">
+    <meta name="keywords" content="Chanudu sesha sai raghavendra, Web Developer, Cybersecurity, Python, Linux, Kali">
+    <title>Chandu Sesha Sai Raghavendra - Professional Portfolio</title>
     <link rel="stylesheet" href="styles.css">
     <script defer src="script.js"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
     <header>
         <nav>
-            <a class="Title-nav">Portfolio</a>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#certifications">Certifications</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-            <div class="nav-photo">
-                <img src="me.jpg" alt="Mahesh Bandela" class="profile-photo">
+            <div class="nav-container">
+                <a href="#home" class="logo">Chandu<span>.</span></a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#certifications">Certifications</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <i class="fas fa-bars"></i>
+                </div>
             </div>
         </nav>
     </header>
     
-    <section class="hero">
-        <div class="container">
+    <section id="home" class="hero">
+        <div class="container hero-container">
             <div class="hero-content">
-                <h1 class="name">Mahesh Bandela</h1>
-
-                <h1>A Professional Coder & Web Developer</h1>
-                <p>Passionate about AI, Web Development, and Problem-Solving.</p>
-                <div class="interactive-buttons">
-                    <a href="#projects" class="btn-expand">Projects</a>
-                    <a href="#skills" class="btn-expand">Skills</a>
-                    <a href="#about" class="btn-expand">About Me</a>
-                    <a href="#education" class="btn-expand">Education</a>
-                    <a href="#certifications" class="btn-expand">Certifications</a>
-                    <a href="#contact" class="btn-expand">Contact</a>
+                <span class="greeting">Hello, I'm</span>
+                <h1 class="name">Chandu sesha sai raghavendra</h1>
+                <h2 class="title">Cybersecurity Enthusiast & Developer</h2>
+                <p class="description">Passionate about Network Security, AI applications, and building robust systems using Python and Linux.</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+                <div class="social-links">
+                    <a href="https://github.com/sairaghavendra123" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/sai-appala-829610298" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="mailto:sairaghavendra937@gmail.com"><i class="fas fa-envelope"></i></a>
                 </div>
             </div>
-            <div class="hero-image">
-                <img src="me.jpg" alt="Your Image">
+            <div class="hero-image-wrapper">
+                <div class="image-blob"></div>
+                <!-- Profile Image -->
+                <img src="images/profile.JPG" alt="Chandu Sesha Sai Raghavendra" class="hero-img">
             </div>
         </div>
     </section>
     
-    
     <section id="about" class="section">
-        <h2>About Me</h2>
-        <p>
-            A Computer Science and Engineering student at Lovely Professional University, Punjab, set to graduate in 2027. With a strong foundation in Web Development, AI & Machine Learning, and Full-Stack Development, I am passionate about solving real-world problems using technology. I am looking forward to working on challenging projects and collaborating with other developers to create innovative solutions.
-            </p>
+        <div class="container">
+            <div class="section-header">
+                <h2>About Me</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text tilt-card"> <!-- Added tilt-card -->
+                    <h3>Future Cybersecurity Engineer</h3>
+                    <p>
+                        I am a Computer Science and Engineering student at Lovely Professional University, Punjab, focusing on <strong>Cybersecurity</strong> and <strong>Software Development</strong>. 
+                        My expertise spans across Network Security (Nmap, Wireshark), Python Programming, and Full-Stack Web Development.
+                    </p>
+                    <p>
+                        I am dedicated to solving complex security & engineering challenges and have a strong foundation in building robust systems.
+                    </p>
+                     <div class="info-grid"> <!-- Reusing styling -->
+                        <div class="info-item">
+                            <span class="label">Degree:</span>
+                            <span class="value">B.Tech CSE</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">City:</span>
+                            <span class="value">Punjab, India</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Email:</span>
+                            <span class="value">sairaghavendra937@gmail.com</span>
+                        </div>
+                        <div class="info-item">
+                            <span class="label">Phone:</span>
+                            <span class="value">+91 8309179296</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="section bg-light"> <!-- Distinct Background -->
+        <div class="container">
+            <div class="section-header">
+                <h2>Education</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="education-timeline vertical">
+                 <div class="timeline-item tilt-card">
+                    <div class="timeline-dot"><i class="fas fa-graduation-cap"></i></div>
+                    <div class="timeline-date">2023 - Present</div>
+                    <div class="timeline-content">
+                        <h3>B.Tech - Computer Science & Engineering</h3>
+                        <p class="institution">Lovely Professional University, Punjab</p>
+                        <p class="grade">CGPA: 6.4</p>
+                    </div>
+                </div>
+                <div class="timeline-item tilt-card">
+                    <div class="timeline-dot"><i class="fas fa-university"></i></div>
+                    <div class="timeline-date">2021 - 2023</div>
+                    <div class="timeline-content">
+                        <h3>Intermediate</h3>
+                        <p class="institution">Narayana Junior College, Bhimavaram</p>
+                        <p class="grade">Percentage: 8.7</p>
+                    </div>
+                </div>
+                <div class="timeline-item tilt-card">
+                    <div class="timeline-dot"><i class="fas fa-school"></i></div>
+                    <div class="timeline-date">2020 - 2021</div>
+                    <div class="timeline-content">
+                        <h3>Matriculation</h3>
+                        <p class="institution">Narayana Public School, Bhimavaram</p>
+                        <p class="grade">Percentage: 10.0</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section">
+        <div class="container">
+             <div class="section-header">
+                <h2>Achievements</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="achievements-grid">
+                <div class="achievement-card tilt-card">
+                    <div class="icon-wrapper"><i class="fas fa-trophy"></i></div>
+                    <div class="achievement-details">
+                        <h3>Hackathon Finalist</h3>
+                        <p>Advanced to Round 3 out of 5 in a competitive Hackathon, demonstrating strong problem-solving and teamwork skills.</p>
+                    </div>
+                </div>
+                <div class="achievement-card tilt-card">
+                    <div class="icon-wrapper"><i class="fas fa-shield-alt"></i></div>
+                    <div class="achievement-details">
+                        <h3>TryHackMe Top 40%</h3>
+                        <p>Consistently active on TryHackMe, completing multiple rooms and ranking in the top 40% of users.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Technical Skills</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="skills-grid">
+                <!-- Languages -->
+                <div class="skill-category tilt-card">
+                    <h3><i class="fas fa-code"></i> Languages</h3>
+                    <ul class="skill-list">
+                        <li><i class="fab fa-python"></i> Python</li>
+                        <li><i class="fas fa-network-wired"></i> Networking</li>
+                        <li><i class="fab fa-linux"></i> Linux</li>
+                    </ul>
+                </div>
+                
+                <!-- Frameworks -->
+                <div class="skill-category tilt-card">
+                    <h3><i class="fas fa-layer-group"></i> Frameworks</h3>
+                    <ul class="skill-list">
+                        <li><i class="fab fa-html5"></i> HTML</li>
+                        <li><i class="fab fa-css3-alt"></i> CSS</li>
+                    </ul>
+                </div>
+
+                <!-- Tools & Platforms -->
+                <div class="skill-category tilt-card">
+                    <h3><i class="fas fa-tools"></i> Tools & Platforms</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-skull"></i> Kali Linux</li>
+                        <li><i class="fas fa-eye"></i> Nmap</li>
+                        <li><i class="fas fa-water"></i> Wireshark</li>
+                    </ul>
+                </div>
+
+                <!-- Soft Skills -->
+                <div class="skill-category tilt-card">
+                    <h3><i class="fas fa-user-check"></i> Soft Skills</h3>
+                    <ul class="skill-list">
+                        <li><i class="fas fa-puzzle-piece"></i> Problem-Solving Skills</li>
+                        <li><i class="fas fa-comments"></i> Communication</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="projects" class="section">
-        <h2>Projects</h2>
-        <div class="project-card">
-            <h3>Face & Voice Authentication System</h3>
-            <p>Developed a secure authentication system using AI, OpenCV, and Speech Recognition.</p>
-            <a href="https://github.com/maheshbandela88/Face-and-Voice-Authentication-System-Python-.git" target="_blank" rel="noopener">View on GitHub</a>
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects & Training</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-icons">
+                            <i class="fab fa-js" title="Node.js"></i>
+                            <i class="fas fa-brain" title="NLP"></i>
+                            <i class="fas fa-robot" title="AI"></i>
+                        </div>
+                        <h3>AI Fan-Fiction Assistant</h3>
+                        <p>Web-based AI application generating creative fan-fiction stories using NLP. Integrated REST APIs for processing user inputs and personalized outputs.</p>
+                    </div>
+                </article>
+
+                <!-- Project 2 -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-icons">
+                            <i class="fab fa-linux" title="Linux"></i>
+                            <i class="fas fa-shield-virus" title="Security"></i>
+                            <i class="fas fa-search" title="Log Analysis"></i>
+                        </div>
+                        <h3>Threat Detection & Monitoring Lab</h3>
+                        <p>Built a virtual SOC with Wazuh/Splunk for centralized monitoring. Simulated cyberattacks to analyze logs and detect anomalies.</p>
+                    </div>
+                </article>
+
+                <!-- Training Project -->
+                <article class="project-card">
+                    <div class="project-content">
+                        <div class="project-icons">
+                            <i class="fas fa-book" title="C++"></i>
+                            <i class="fas fa-code-branch" title="Algorithms"></i>
+                        </div>
+                        <h3>Library Management System (Training)</h3>
+                        <p>Console-based system handling 5,000+ records with 98% efficiency. Implemented using C++, Linked Lists, and Hash Tables during Python Dynamics Training.</p>
+                    </div>
+                </article>
+            </div>
         </div>
-        <div class="project-card">
-            <h3>Portfolio</h3>
-            <p>Designed and developed a responsive portfolio website using HTML, CSS, and JavaScript.</p>
-            <a href="https://github.com/maheshbandela88/My_Portfolio" target="_blank" rel="noopener">View on GitHub</a>
-            
     </section>
     
-    <section id="skills" class="section">
-        <h2>Skills</h2>
-        <ul class="skills-list">
-            <li>Programming Languages: C++, Java, Python, JavaScript, PHP</li>
-            <li>Web Development: HTML, CSS, JavaScript, PHP</li>
-            <li>Databases: MySQL</li>
-            <li>AI & Machine Learning: AI Prompting</li>
-        </ul>
+    <section id="certifications" class="section bg-light">
+        <div class="container">
+            <div class="section-header">
+                <h2>Certifications</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="certifications-grid">
+                <!-- Cert 1 -->
+                <div class="cert-card tilt-card">
+                    <div class="cert-img-wrapper">
+                        <img src="images/prompt_engineering.png" alt="Complete Prompt Engineering, ChatGPT & AI Bootcamp" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x200?text=Cert+Image'">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Complete Prompt Engineering, ChatGPT & AI Bootcamp</h3>
+                        <p class="issuer">Udemy - Dec 2025</p>
+                    </div>
+                </div>
+                <!-- Cert 2 -->
+                <div class="cert-card tilt-card">
+                    <div class="cert-img-wrapper">
+                         <img src="images/gen_ai_apps.png" alt="Build Generative AI Apps & Solutions" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x200?text=Cert+Image'">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Build Generative AI Apps & Solutions (No-Code)</h3>
+                        <p class="issuer">Udemy - Dec 2025</p>
+                    </div>
+                </div>
+                <!-- Cert 3 -->
+                <div class="cert-card tilt-card">
+                    <div class="cert-img-wrapper">
+                        <img src="images/master_gen_ai.png" alt="Master Generative AI & AI Tools" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x200?text=Cert+Image'">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Master Generative AI & AI Tools</h3>
+                        <p class="issuer">Udemy - Dec 2025</p>
+                    </div>
+                </div>
+                 <!-- Cert 4 -->
+                 <div class="cert-card tilt-card">
+                    <div class="cert-img-wrapper">
+                        <img src="images/computational_theory.png" alt="Computational Theory & Automata" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x200?text=Cert+Image'">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Computational Theory & Automata</h3>
+                        <p class="issuer">Infosys Springboard - Dec 2025</p>
+                    </div>
+                </div>
+                <!-- Cert 5 -->
+                <div class="cert-card tilt-card">
+                    <div class="cert-img-wrapper">
+                        <img src="images/computer_communications.png" alt="Computer Communications Specialization" onerror="this.onerror=null; this.src='https://via.placeholder.com/300x200?text=Cert+Image'">
+                    </div>
+                    <div class="cert-info">
+                        <h3>Computer Communications Specialization</h3>
+                        <p class="issuer">Coursera - Dec 2024</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-    
-    <section id="education" class="section">
-        <h2>Education</h2>
-        <p>Lovely Professional University, Punjab - CSE (2027)</p>
-        <p>Narayana Junior College, Bhimavaram - 2021-2023</p>
-        <p>Narayana English Medium School, Bhimavaram - 2020-2021</p>
-    </section>
-    
-    <section id="certifications" class="section">
-        <h2>Certifications</h2>
-        <ul>
-            <li><a href="https://coursera.org/share/32efbca3716b40a36050ea4490d07e0c" target="_blank" rel="noopener">Computer Communications - Coursera</a></li>
-            <li><a href="https://www.freecodecamp.org/certification/maheshbandela/responsive-web-design" target="_blank" rel="noopener">Responsive Web Design - FreeCodeCamp</a></li>
-        </ul>
-    </section>
-    
+
     <section id="contact" class="section">
-        <h2>Contact</h2>
-        <p>Mobile Number: +91 9177447240</p>
-        <p>Email: <a href="mailto:maheshbandela88@gmail.com">maheshbandela88@gmail.com</a></p>
-        <p>GitHub: <a href="https://github.com/maheshbandela88" target="_blank" rel="noopener">github.com/maheshbandela88</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/mahesh-bandela-272342298" target="_blank" rel="noopener">LinkedIn Profile</a></p>
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="separator"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-card">
+                    <div class="icon-box">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>Email</h3>
+                    <p><a href="mailto:sairaghavendra937@gmail.com">sairaghavendra937@gmail.com</a></p>
+                </div>
+                <div class="contact-card">
+                    <div class="icon-box">
+                        <i class="fas fa-phone"></i>
+                    </div>
+                    <h3>Phone</h3>
+                    <p>+91 8309179296</p>
+                </div>
+                <div class="contact-card">
+                    <div class="icon-box">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                    <h3>LinkedIn</h3>
+                    <p><a href="https://www.linkedin.com/in/sai-appala-829610298" target="_blank">View Profile</a></p>
+                </div>
+                 <div class="contact-card">
+                    <div class="icon-box">
+                        <i class="fab fa-github"></i>
+                    </div>
+                    <h3>GitHub</h3>
+                    <p><a href="https://github.com/sairaghavendra123" target="_blank">View Profile</a></p>
+                </div>
+            </div>
+        </div>
     </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Chanudu Sesha Sai Raghavendra. All Rights Reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
