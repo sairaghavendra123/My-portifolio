@@ -325,11 +325,12 @@ header {
   padding-top: 80px; /* Offset for fixed header */
 }
 
+/* Hero Container */
 .hero-container {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
-  gap: 40px;
+  gap: 80px; /* Increased gap */
   width: 100%;
 }
 
@@ -434,8 +435,8 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 400px;
-    height: 400px;
+    width: 450px; /* Increased blob size */
+    height: 450px;
     background-color: #dbeafe; /* Light blue blob */
     filter: blur(40px);
     z-index: -1;
@@ -445,14 +446,16 @@ header {
 }
 
 .hero-img {
-    width: 350px;
-    height: 350px;
-    object-fit: cover;
+    width: 100%;
+    max-width: 450px; /* Larger max width */
+    height: auto; /* Maintain aspect ratio */
     border-radius: 20px;
     box-shadow: var(--shadow-lg);
     border: 4px solid var(--white);
     transition: var(--transition);
     animation: float 6s ease-in-out infinite;
+    display: block;
+    margin: 0 auto;
 }
 
 .hero-img:hover {
